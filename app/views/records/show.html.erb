@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Record:</strong>
+  <%= @record.record_id %>
+</p>
+
+<p>
+  <strong>Intenger:</strong>
+  <%= @record.intenger %>
+</p>
+
+<p>
+  <strong>Patient name:</strong>
+  <%= @record.patient_name %>
+</p>
+
+<p>
+  <strong>Patient doctor:</strong>
+  <%= @record.patient_doctor %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @record.date %>
+</p>
+
+<%= link_to 'Edit', edit_record_path(@record) %> |
+<%= link_to 'Back', records_path %>
